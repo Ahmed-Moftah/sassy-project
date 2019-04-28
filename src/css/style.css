@@ -1,0 +1,30 @@
+body {
+  background: #fff;
+  color: #000; }
+
+h1 {
+  -webkit-box-shadow: 1px 1px 10px red;
+  box-shadow: 1px 1px 10px red;
+  border-radius: 20px;
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg); }
+
+.red-box {
+  -webkit-animation: move 5s ease-out;
+  animation: move 5s ease-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+  z-index: 22; }
+
+@-webkit-keyframes move {
+  from {
+    left: 0px; }
+  to {
+    left: 300px; } }
+
+@keyframes move {
+  from {
+    left: 0px; }
+  to {
+    left: 300px; } }

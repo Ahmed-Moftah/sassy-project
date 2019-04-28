@@ -1,0 +1,14 @@
+// @import "node_modules/bootstrap/dist/css/bootstrap";
+
+$bg-color: #fff;
+$color: #000;
+
+body {
+    background: $bg-color;
+    color:$color;
+}
+h1{
+    box-shadow: 1px 1px 10px red;
+    border-radius: 20px;
+    transform: rotate(60deg);
+}
